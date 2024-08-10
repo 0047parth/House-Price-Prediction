@@ -1,0 +1,64 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='house.png') }}" type="image/png">
+</head>
+<body>
+    <div class="container" style="background: #afc2ba;
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 3px solid #8b8a8a;
+    border-radius: 15px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);">
+        <h1 style="background-color: #463663;
+        padding: 0.5rem;
+        border-radius: 5px;
+        color: white;">House Price Prediction</h1>
+        <form id="predictionForm">
+            <div class="form-group">
+                <label for="bedrooms" style="font-size: larger;
+                color: black;
+                font-weight: 600;">Number of Bedrooms:</label>
+                <input type="number" class="form-control" id="bedrooms" name="bedrooms" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="bathrooms" style="font-size: larger;
+                color: black;
+                font-weight: 600;">Number of Bathrooms:</label>
+                <input type="number" class="form-control" id="bathrooms" name="bathrooms" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="size_sqft" style="font-size: larger;
+                color: black;
+                font-weight: 600;">Size in Square Feet:</label>
+                <input type="number" class="form-control" id="size_sqft" name="size_sqft" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="location" style="font-size: larger;
+                color: black;
+                font-weight: 600;">Location</label>
+                <input type="char" class="form-control" id="loc" name="location" step="any" required>
+            </div>
+            <button type="submit" class="btn" style="color: white;
+            background-color: #463663;
+            font-size: larger;
+            font-weight: 600;">Predict Price</button>
+        </form>
+        <div id="result" class="mt-3" style="color: black;
+    font-size: larger;
+    font-weight: 600;"></div>
+        <div id="error" class="mt-2"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
