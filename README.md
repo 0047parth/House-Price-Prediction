@@ -1,26 +1,4 @@
 
-**1. Introduction**
-# House Price Prediction Flask App
-
-## Overview
-
-This project is a Flask web application designed to predict house prices based on input features. It uses a linear regression model trained on the Ames Iowa Housing dataset.
-
-## Features
-
-- *Predict house prices*: Use the trained model to get predictions based on various housing features.
-- *Simple API*: Interact with the application using a RESTful API.
-
-## Prerequisites
-
-- Python 3.7 or higher
-- pip for package management
-
-## Setup Instructions
-
-Certainly! Below is a sample README.md file that provides clear instructions for setting up, running, and using the Flask-based house price prediction application.
-
-
 # House Price Prediction Flask App
 
 ## Overview
