@@ -39,7 +39,7 @@ This project is a Flask web application designed to predict house prices based o
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+**1. Clone the Repository**
 
 Start by cloning the repository to your local machine:
 
