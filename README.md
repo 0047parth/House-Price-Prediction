@@ -39,12 +39,14 @@ This project is a Flask web application designed to predict house prices based o
 
 ## Setup Instructions
 
+
 **1. Clone the Repository**
 
 Start by cloning the repository to your local machine:
 
 **git clone https://github.com/0047parth/house-price-prediction.git**
 cd house-price-prediction
+
 
 **2. Install Dependencies**
 Install the required Python packages using pip. It is recommended to use a virtual environment:
@@ -53,11 +55,13 @@ Install the required Python packages using pip. It is recommended to use a virtu
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
 pip install -r requirements.txt
 
+
 **3. Train the Model**
 Before running the application, you need to train and save the machine learning model. This can be done by executing the model.py script:
 
 **python model.py**
 This will create a house_price_model_1.pkl file containing the trained model.
+
 
 **4. Run the Flask Application**
 Once the model is trained, you can start the Flask web application by running:
