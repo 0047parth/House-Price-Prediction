@@ -1,3 +1,6 @@
+![output3](https://github.com/user-attachments/assets/53d15de1-3d85-45d7-b72d-4b06b31f3b2c)
+![output 2](https://github.com/user-attachments/assets/921e6f2f-f163-486b-ab72-417d10d1f4e8)
+![output 1](https://github.com/user-attachments/assets/6c70e90c-65fd-480d-a3b1-3eed0d952e61)
 **1. Introduction**
 # House Price Prediction Flask App
 
