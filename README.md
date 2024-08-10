@@ -1,6 +1,4 @@
-![output3](https://github.com/user-attachments/assets/53d15de1-3d85-45d7-b72d-4b06b31f3b2c)
-![output 2](https://github.com/user-attachments/assets/921e6f2f-f163-486b-ab72-417d10d1f4e8)
-![output 1](https://github.com/user-attachments/assets/6c70e90c-65fd-480d-a3b1-3eed0d952e61)
+
 **1. Introduction**
 # House Price Prediction Flask App
 
@@ -76,9 +74,14 @@ Contributing
 
 Feel free to submit issues or pull requests if you have improvements or fixes.
 
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-If you have any questions or need further assistance, please contact [parthxool.yu@gmail.com] or open an issue on GitHub.
+If you have any questions or need further assistance, please contact parthxool.yu@gmail.com or open an issue on GitHub.
 
 This README.md file provides a comprehensive guide to setting up and using your Flask-based house price prediction application.
+
+![output3](https://github.com/user-attachments/assets/53d15de1-3d85-45d7-b72d-4b06b31f3b2c)
+![output 2](https://github.com/user-attachments/assets/921e6f2f-f163-486b-ab72-417d10d1f4e8)
+![output 1](https://github.com/user-attachments/assets/6c70e90c-65fd-480d-a3b1-3eed0d952e61)
